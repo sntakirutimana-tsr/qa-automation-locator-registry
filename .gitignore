@@ -1,0 +1,30 @@
+# Ignore IDEA files
+.idea/
+.vscode/
+
+# Ignore compiler output
+target/
+build/
+dist/
+
+# Ignore OS generated files
+.DS_Store
+
+# Ignore log files
+**/*.log
+
+# Ignore db files
+**/*.db
+**/.sqlite*
+**/.data*
+**/*.sql*
+
+# Ignore environment files
+**/*.env
+**/.env*
+!**/.env.example
+
+# Ignore temporary files
+**/*.tmp
+tmp/
+temp/

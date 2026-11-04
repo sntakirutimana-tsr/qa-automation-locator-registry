@@ -1,0 +1,17 @@
+locator:
+  definition:
+    allowed-attributes:
+      - strategy
+      - value
+  registry:
+    path: 
+      default: locator-registry
+      rule: (?i)\s*\/?(?:\w+(?:-+\w+)*)(?:\/\w+(?:-+\w+)*)*\s*
+    cache-enabled: true
+  source:
+    key:
+      rule: (?i)^\s*\/?(?:\w+(?:-+\w+)*)(?:\/\w+(?:-+\w+)*)*\s*(\.ya?ml)?$
+    path:
+      rule: (?i)^\s*\/?(?:\w+(?:-+\w+)*)(?:\/\w+(?:-+\w+)*)*\s*$
+    section:
+        rule: (?i)^\s*\w+((-*|\.?)\w+)*\s*$
